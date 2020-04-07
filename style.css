@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.keyboard_area{
+    width: 690px;
+    margin: 0 auto;
+}
+.text_area{
+    display: block;
+    width:680px;
+    height: 200px;
+    margin:0 auto;
+}
+.key{
+    display: inline-block;
+    color: #fff;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 5px 5px 0;
+    background-color: #3A424E;
+}
+.key:hover{
+    background-color: rgb(93, 105, 184);
+}
+.long_key{
+    width: 100px;
+}
+.tab_key{
+    width: 55px;
+}
+.del_key{
+    width: 60px;
+}
+.enter_key{
+    width: 85px;
+}
+.space_key{
+    width:325px;
+}
+.key.active{
+    background-color: rgb(8, 77, 19);
+}
+
+.clue{
+    display: block;
+    padding-top: 30px;
+    width: 680px;
+    margin:0 auto;
+}
+
